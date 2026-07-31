@@ -1,0 +1,28 @@
+info:
+  name: GetOwnedGames
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: "{{steam_api_base_url}}/IPlayerService/GetOwnedGames/v1/?key={{steam_api_key}}&steamid={{steam_user_id}}&include_appinfo=true&format=json"
+  params:
+    - name: key
+      value: "{{steam_api_key}}"
+      type: query
+    - name: steamid
+      value: "{{steam_user_id}}"
+      type: query
+    - name: include_appinfo
+      value: "true"
+      type: query
+    - name: format
+      value: json
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
