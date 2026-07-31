@@ -1,0 +1,7 @@
+info:
+  name: steam store api
+  type: folder
+  seq: 2
+
+request:
+  auth: inherit
