@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="AchievementHunter.Api\AchievementHunter.Api.csproj" />
+  <Project Path="AchievementHunter.Application\AchievementHunter.Application.csproj" />
+  <Project Path="AchievementHunter.Domain\AchievementHunter.Domain.csproj" />
+  <Project Path="AchievementHunter.Infrastructure\AchievementHunter.Infrastructure.csproj" />
+</Solution>

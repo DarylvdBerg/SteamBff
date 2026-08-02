@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="Steam.Api/Steam.Api.csproj" />
-  <Project Path="SteamBff.Application/SteamBff.Application.csproj" />
-  <Project Path="SteamBff.Domain/SteamBff.Domain.csproj" />
-  <Project Path="SteamBff.Infrastructure/SteamBff.Infrastructure.csproj" />
-</Solution>
