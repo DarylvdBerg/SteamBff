@@ -4,8 +4,14 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Steam.Api</RootNamespace>
+        <RootNamespace>AchievementHunter.Api</RootNamespace>
     </PropertyGroup>
+
+
+    <ItemGroup>
+        <ProjectReference Include="..\AchievementHunter.Infrastructure\AchievementHunter.Infrastructure.csproj" />
+    </ItemGroup>
+
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />

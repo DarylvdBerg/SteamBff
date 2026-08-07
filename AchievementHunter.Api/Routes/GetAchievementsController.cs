@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Steam.Api.Routes;
+namespace AchievementHunter.Api.Routes;
 
 [ApiController]
 [ApiVersion("1.0")]
